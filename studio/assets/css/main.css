@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body{
+  background: #cee3ee;
+  margin: ;
+  padding: 10px;
+  color: ;
+  font-family: arial;
+  font-size: 30px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.back{
+  text-align: center;
+  font-size: 20px;
+}
+
+a:hover{
+  color: #fff;
+}
