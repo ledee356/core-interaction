@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body{
+text-align: center;
+padding: 20px;
+background: black;
+}
+
+h1{
+  font-family: futura;
+  color: white;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+img{
+  width: 40%;
+  height: 40%;
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 100px;
+}
+
+p{
+  font-family: futura;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.extra{
+  font-size: 75px;
+}
+
+.mov1{
+  font-family: mistral;
+  color: yellow;
+  font-size: 60px;
+  text-decoration: none;
+}
+ .mov1:active, .mov1:visited{
+  color: yellow;
+  text-decoration: none;
+}
+
+.mov1:hover{
+  text-decoration: underline;
+}
+
+.mov2{
+  font-family: Haettenschweiler;
+  color: #e0c35c;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.mov2:hover, .mov2:active, .mov2:visited{
+  color: #e0c35c;
+  text-decoration: none;
+}
+
+.mov2:hover{
+  text-decoration: underline;
+}
+
+
+.mov3{
+  font-family: acumin pro;
+  letter-spacing: 60px;
+  color: #55ecff;
+  font-size: 60px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mov3:active, .mov3:visited{
+  color: #55ecff;
+  text-decoration: none;
+}
+
+.mov3:hover{
+  text-decoration: underline;
+}
+
+.mov4{
+  font-family: helvetica neue;
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.mov4:active, .mov4:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.mov4:hover{
+  text-decoration: underline;
+}
+
+.mov5{
+  font-family: amador;
+  color: #d12229;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.mov5:active, .mov5:visited{
+  color: #d12229;
+  text-decoration: none;
+}
+
+.mov5:hover{
+  text-decoration: underline;
+}
+
+.mov6{
+  font-family: big caslon;
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.mov6:active, .mov6:visited{
+  color: #white;
+  text-decoration: none;
+}
+
+.mov6:hover{
+  text-decoration: underline;
+}
+
+.mov7{
+  font-family: helvetica;
+  color: #5163b8;
+  font-size: 60px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mov7:active, .mov7:visited{
+  color: #5163b8;
+  text-decoration: none;
+}
+
+.mov7:hover{
+  text-decoration: underline;
+}
+
+.mov8{
+  font-family: Neuzeit Grotesk;
+  color: #e4f2cf;
+  font-size: 60px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.mov8:active, .mov8:visited{
+  color: #e4f2cf;
+  text-decoration: none;
+}
+
+.mov8:hover{
+  text-decoration: underline;
+}
+
+.mov9{
+  font-family: gill sans;
+  color: #d36029;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.mov9:active, .mov9:visited{
+  color: #d36029;
+  text-decoration: none;
+}
+
+.mov9:hover{
+  text-decoration: underline;
+}
