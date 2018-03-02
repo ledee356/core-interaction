@@ -1,0 +1,80 @@
+* {box-sizing: border-box;}
+
+body{
+  margin: 0;
+  background-color: #232bc9;
+}
+
+.mac1984{
+  height: 100%;
+  width: 100%;
+}
+
+.mac2003{
+  height: 75%;
+  width: 75%;
+  display: none;
+}
+
+.imac{
+  height: 50%;
+  width: 50%;
+  display: none;
+}
+
+.ipad{
+  height: 25%;
+  width: 50%;
+  display: none;
+}
+
+.iphone{
+  height: 10%;
+  width: 10%;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .mac1984{
+    display: none;
+  }
+
+  .mac2003{
+    display: block;
+  }
+
+  body{
+    background: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .mac2003{
+    display: none;
+  }
+
+  .imac{
+    display: block;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .imac{
+    display: none;
+  }
+
+  .ipad{
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .ipad{
+    display: none;
+  }
+
+  .iphone{
+    display: block;
+  }
+}
