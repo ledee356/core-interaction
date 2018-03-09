@@ -11,26 +11,26 @@ body{
 }
 
 .mac2003{
-  height: 75%;
-  width: 75%;
+  height: 80%;
+  width: 80%;
   display: none;
 }
 
 .imac{
-  height: 50%;
-  width: 50%;
+  height: 90%;
+  width: 90%;
   display: none;
 }
 
 .ipad{
-  height: 25%;
-  width: 50%;
+  height: 80%;
+  width: 80%;
   display: none;
 }
 
 .iphone{
-  height: 10%;
-  width: 10%;
+  height: 70%;
+  width: 70%;
   display: none;
 }
 
@@ -42,13 +42,9 @@ body{
   .mac2003{
     display: block;
   }
-
-  body{
-    background: white;
-  }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .mac2003{
     display: none;
   }
@@ -59,7 +55,7 @@ body{
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .imac{
     display: none;
   }
@@ -69,7 +65,7 @@ body{
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .ipad{
     display: none;
   }
