@@ -17,13 +17,26 @@ h1{
   font-size: 100px;
   text-align: center;
   color: #fff;
+  transition: all 500ms ease;
+}
+
+h1:hover{
+  color: #73207a;
+  transform: skew(20deg);
+  text-decoration: underline;
+}
+
+a:active, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
 }
 
 .back{
   text-align: center;
   font-size: 20px;
-}
-
-a:hover{
-  color: #fff;
 }
