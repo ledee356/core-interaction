@@ -1,0 +1,37 @@
+body{
+  background-color: #ffe888;
+}
+
+h1{
+  font-family: milka;
+  font-size: 130px;
+  text-align: center;
+  color: #3de3d8;
+  transition: all 500ms ease;
+}
+
+h1:hover{
+  color: #def5f0;
+  transform: skew(-20deg);
+}
+
+.studio{
+  font-family: futura;
+  font-size: 80px;
+  color: #def5f0;
+}
+
+a{
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+a:active, a:visited{
+  color: #def5f0;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1a292f;
+  text-decoration: none;
+}

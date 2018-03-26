@@ -8,7 +8,7 @@ body{
   margin: ;
   padding: 10px;
   color: ;
-  font-family: arial;
+  font-family: futura;
   font-size: 30px;
 }
 
@@ -16,9 +16,10 @@ h1{
   font-weight: bold;
   font-size: 100px;
   text-align: center;
-  color: #fff;
+  color: #ffe888;
   transition: all 500ms ease;
   padding: 50px;
+  font-family: milka;
 }
 
 h1:hover{

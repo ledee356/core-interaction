@@ -87,8 +87,8 @@ console.log(myLuckyNumbers[1]);
 console.log('Objects -');
 
 var me = {
-  name: 'Bryant',
-  age: 27,
+  name: 'Eli',
+  age: 19,
   nativeNewYork: false
 };
 console.log('me', me);
@@ -121,3 +121,46 @@ var addNumbers = function(num1, num2) {
 };
 
 console.log(addNumbers(8,12));
+
+
+
+var describeMe = function (me) {
+  return ' My name is ' + me.name + ' and I am ' + me.age + ' years old and if you were to ask me if I was a native New Yorker, my response would be ' + me.nativeNewYorker
+};
+
+console.log('');
+
+// CONDITIONAL STATEMENTS
+console.log('Conditional Statements -');
+
+if (me.age > 21){
+console.log('party time')
+} else if (me.age < 5) {
+  console.log('why are you here')
+
+} else {
+  console.log('not quite yet')
+}
+
+// LOOP
+console.log('Loops -')
+var hamburgers = 0;
+
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + 'hamburger(s)');
+  hamburgers++;
+}
+
+for (var i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+console.log('how many licks does it take to get to the center of a tootsie pop?')
+
+for(var licks = 1; licks <=4; licks++) {
+  if (licks == 4) {
+    console.log('CRUNCH!!!!')
+  }else {
+  console.log(licks);
+}
+}

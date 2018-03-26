@@ -16,14 +16,19 @@ h1{
   font-weight: bold;
   font-size: 100px;
   text-align: center;
-  color: #fff;
+  color: #ffe888;
   transition: all 500ms ease;
+  font-family: milka;
 }
 
 h1:hover{
   color: #73207a;
   transform: skew(20deg);
   text-decoration: underline;
+}
+
+a{
+  color: black;
 }
 
 a:active, a:visited{
