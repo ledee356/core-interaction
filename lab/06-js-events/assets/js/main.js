@@ -46,3 +46,14 @@ window.addEventListener('click', function(event) {
   dot.style.left = event.pageX + 'px'
   document.body.appendChild(dot)
 })
+
+
+// select an element
+var box = document.querySelector('.box')
+
+// add a listener
+box.addEventListener('click', function (event) {
+
+// do some stuff
+  console.log(event)
+})

@@ -5,9 +5,7 @@
 
 body{
   background: #cee3ee;
-  margin: ;
   padding: 10px;
-  color: ;
   font-family: arial;
   font-size: 30px;
 }
@@ -56,20 +54,13 @@ a:hover{
   font-size: 20px;
 }
 
-.main{
+.wrapper{
+  display: flex;
+  align-items: flex-start;
   background-color: #f7efe2;
-    padding: 40px;
-    margin: 20px;
+  padding: 20px;
+  height: 500px;
 
-}
-
-.day{
-  display: inline-block;
-}
-
-.day1{
-  margin-left: 200px;
-  margin-right: 300px;
 }
 
 h2{
@@ -84,13 +75,40 @@ p{
 }
 
 .high{
-  width: 20%;
-  height:20%;
-  display: inline-block;
-  transition: all 500ms ease;
+  display: flex;
+  height: 400px;
+  flex: 1;
+  margin: 30px;
 }
 
-.high:hover{
-  width: 40%;
-  height:40%;
+.rise{
+  height: 500px;
+  display: flex;
+  align-self: center;
+  width: 1100px;
+  opacity: 0;
+  transition: all 500ms ease;
+
+}
+
+.rise:hover {
+  opacity: 1;
+  filter: opacity(75%);
+}
+
+.high1{
+  display: flex;
+  flex: 2;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.rise1{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  align-content: center;
+  left: 1%
 }
