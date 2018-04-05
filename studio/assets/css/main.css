@@ -3,6 +3,11 @@
   vertical-align: top;
 }
 
+@font-face {
+    font-family: milka;
+    src: url("../fonts/forum.otf");
+}
+
 body{
   background: #cee3ee;
   padding: 10px;
@@ -39,7 +44,7 @@ a{
   font-weight: thin;
 }
 
-a:active, a:visited{
+a:active, a:visited, a:link{
   color: #ffe888;
   text-decoration: none;
 }
@@ -60,7 +65,7 @@ a:hover{
   background-color: #f7efe2;
   padding: 20px;
   height: 500px;
-
+  position: relative;
 }
 
 h2{
@@ -77,38 +82,47 @@ p{
 .high{
   display: flex;
   height: 400px;
+  width:
   flex: 1;
   margin: 30px;
 }
 
-.rise{
+/* .rise{
   height: 500px;
-  display: flex;
-  align-self: center;
   width: 1100px;
-  opacity: 0;
+  opacity: 1;
   transition: all 500ms ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
 
+.rise1.is-active {
+  opacity: 1;
 }
 
-.rise:hover {
+/* .rise:hover {
   opacity: 1;
   filter: opacity(75%);
-}
+  /* resize: both; */
+  /* height: 100%;
+  width: 100%;
+} */
 
 .high1{
   display: flex;
+  position: relative;
   flex: 2;
   flex-flow: row wrap;
   justify-content: space-around;
+
 }
 
 
 .rise1{
-  display: flex;
-  justify-content: center;
   align-self: center;
-  position: absolute;
-  align-content: center;
-  left: 1%
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }

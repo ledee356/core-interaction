@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body{
+  background: #cee3ee;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: #0d1d5e;
+  transition: all 500ms ease;
+  font-family: milka;
+}
+
+h1:hover{
+  color: #f07037;
+  transform: skew(-20deg);
+}
+
+header{
+  text-align: right;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: futura;
+  margin-left: 20px;
+  color: #f7efe2;
+  transition: all 500ms ease;
+  font-weight: thin;
+}
+
+a:active, a:visited{
+  color: #ffe888;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0d1d5e;
+  text-decoration: none;
+}
+
+.wrapper{
+  display: flex;
+  background-color: #f7efe2;
+  padding: 20px;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.text{
+  font-size: 20px;
+  font-family: helvetica;
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+}
+
+h2{
+  font-family: futura;
+  font-size: 50px;
+  color: #0d1d5e;
+  margin-top: 0;
+}
+
+.words{
+  margin-left: 50px;
+  /* align-self: flex-start; */
+}
+
+.button-1{
+display: flex;
+justify-content: center;
+}
+
+.button-2{
+display: flex;
+justify-content: cente
+}
+
+.dropbtn{
+  background-color: #0d1d5e;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "futura";
+  font-weight: bold;
+  transition: all 500ms ease;
+  margin: 100px;
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 280px;
+}
+
+.dropbtn:hover{
+  background-color: white;
+  color: #0d1d5e;
+}
+
+select{
+  display: flex;
+}
+
+
+.dropdown-content{
+  display: none;
+  background-color:  #cee3ee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+  z-index: 1;
+  text-align: center;
+  margin: 0;
+  transition: all 500ms ease;
+  position: absolute;
+  flex-direction: column;
+}
+
+.years{
+  padding: 30px 16px;
+  display: block;
+  margin: 0px;
+  transition: all 500ms ease;
+  display: flex;
+
+}
+
+.years:hover{
+  background-color: #bdbdbd;
+  color: white;
+}
+
+.show.dropdown-content{
+  display: flex;
+}
