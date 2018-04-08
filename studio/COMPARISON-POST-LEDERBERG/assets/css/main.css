@@ -79,15 +79,6 @@ h2{
   /* align-self: flex-start; */
 }
 
-.button-1{
-display: flex;
-justify-content: center;
-}
-
-.button-2{
-display: flex;
-justify-content: cente
-}
 
 .dropbtn{
   background-color: #0d1d5e;
@@ -116,7 +107,6 @@ select{
   display: flex;
 }
 
-
 .dropdown-content{
   display: none;
   background-color:  #cee3ee;
@@ -130,20 +120,14 @@ select{
   flex-direction: column;
 }
 
-.years{
-  padding: 30px 16px;
-  display: block;
-  margin: 0px;
-  transition: all 500ms ease;
+.show.dropdown-content{
   display: flex;
-
 }
 
-.years:hover{
-  background-color: #bdbdbd;
+.link:active, .link:visited{
   color: white;
 }
 
-.show.dropdown-content{
-  display: flex;
+.link:hover{
+  color: #0d1d5e;
 }
