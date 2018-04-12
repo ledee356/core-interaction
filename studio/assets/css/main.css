@@ -92,7 +92,6 @@ h2{
   font-size: 40px;
   font-weight: bold;
   color: #0d1d5e;
-
 }
 
 p{
@@ -202,4 +201,138 @@ p{
   max-height: 150px;
   display: flex;
   transition: all 0.5s;
+}
+
+/* COMPARISON PAGE */
+
+.wrapper1{
+  display: flex;
+  background-color: #f7efe2;
+  padding: 20px;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.text1{
+  font-size: 20px;
+  font-family: helvetica;
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+}
+
+.h2{
+  font-family: futura;
+  font-size: 50px;
+  color: #0d1d5e;
+  margin-top: 0;
+}
+
+.words{
+  margin-left: 50px;
+  font-weight: normal;
+  /* align-self: flex-start; */
+}
+
+.dropbtn{
+  background-color: #0d1d5e;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "futura";
+  font-weight: bold;
+  transition: all 500ms ease;
+  margin: 100px;
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 280px;
+}
+
+.dropbtn:hover{
+  background-color: white;
+  color: #0d1d5e;
+}
+
+select{
+  display: flex;
+}
+
+.dropdown-content{
+  display: none;
+  background-color:  #cee3ee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+  z-index: 1;
+  text-align: center;
+  margin: 0;
+  transition: all 500ms ease;
+  position: absolute;
+  flex-direction: column;
+}
+
+.show.dropdown-content{
+  display: flex;
+}
+
+.link:active, .link:visited{
+  color: white;
+}
+
+.link:hover{
+  color: #0d1d5e;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 16px;
+
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.text1{
+  display: flex;
+  flex-flow: row;
+  flex: wrap;
+}
+
+.img1{
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 300px;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.wrapper2{
+  display: flex;
+  background-color: #f7efe2;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
 }
