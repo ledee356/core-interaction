@@ -1,3 +1,9 @@
+@font-face {
+  font-family: milka, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 body{
   background-color: #ffe888;
 }

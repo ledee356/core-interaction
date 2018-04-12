@@ -4,8 +4,9 @@
 }
 
 @font-face {
-    font-family: milka;
-    src: url("../fonts/forum.otf");
+  font-family: milka, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 body{
