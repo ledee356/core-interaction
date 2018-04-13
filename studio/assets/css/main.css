@@ -87,6 +87,7 @@ a:hover{
   padding: 20px;
   height: 500px;
   position: relative;
+  margin-bottom: 50px;
 }
 
 h2{
@@ -148,6 +149,11 @@ p{
 }
 
 .direct{
+  align-items: flex-start;
+  background-color: #f7efe2;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 50px;
   height: 1100px;
   display: flex;
 }
@@ -337,3 +343,21 @@ tr:nth-child(even) {
   flex-direction: column;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .wrapper{
+    width: 550px;
+    display: flex;
+  }
+  .head{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .direct{
+    height: 3250px;
+  }
