@@ -344,6 +344,19 @@ tr:nth-child(even) {
   margin: 0;
 }
 
+.linked{
+  font-size: 30px;
+  font-family: arial;
+  color: black
+}
+
+.directors{
+  font-size: 30px;
+  font-family: arial;
+  color: black;
+}
+
+
 @media (max-width: 768px) {
   .wrapper{
     width: 550px;
