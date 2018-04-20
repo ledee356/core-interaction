@@ -288,6 +288,32 @@ p{
   transition: all 0.5s;
 }
 
+.barry{
+  font-size: 60px;
+  font-weight: bold;
+  color: #9dd8e1;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top: 0;
+  transition: all 500ms ease;
+}
+
+.barry:hover{
+  color: #654483;
+  transform: skew(20deg);
+}
+
+.portrait{
+  display: flex;
+  height: 400px;
+  flex: 1;
+  margin: 20px;
+}
+
+.portrait:hover{
+  filter: saturate(3) brightness(1);
+  transition: all 500ms ease;
+}
+
 /* COMPARISON PAGE */
 
 .wrapper1{
@@ -307,15 +333,6 @@ p{
   display: flex;
   margin: 0;
   /* align-items: flex-start; */
-
-}
-
-.h2{
-  font-family: futura;
-  font-size: 50px;
-  color: #0d1d5e;
-  margin-top: 0;
-  padding-top: 0;
 
 }
 
