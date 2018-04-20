@@ -10,7 +10,7 @@
 }
 
 body{
-  background: #cee3ee;
+  background: black;
   padding: 10px;
   font-family: arial;
   font-size: 30px;
@@ -18,11 +18,12 @@ body{
 
 h1{
   font-weight: bold;
-  font-size: 100px;
+  font-size: 150px;
   text-align: center;
-  color: #0d1d5e;
+  color: #2c3f8d;
   transition: all 500ms ease;
-  font-family: milka;
+  font-family: 'Jockey One', sans-serif;
+
 }
 
 h1:hover{
@@ -51,13 +52,14 @@ header{
 .bold{
   font-weight: bold;
   color: black;
+  font-family: 'Quicksilver', sans-serif;
 }
 
 a{
   color: black;
   text-decoration: none;
   font-size: 15px;
-  font-family: futura;
+  font-family: 'Quicksand', sans-serif;
   margin-left: 20px;
   color: #f7efe2;
   transition: all 500ms ease;
@@ -87,26 +89,114 @@ a:hover{
   padding: 20px;
   height: 500px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  margin: 0;
+}
+
+.wrapped{
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7efe2;
+  padding: 20px;
+  height: 450px;1
+  width: 375px;
+}
+
+.wrapper2{
+  font-size: 30px;
+  font-family: arial;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 0;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  transition: all 500ms ease;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
-  color: #0d1d5e;
+  color: #9dd8e1;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top: 0;
 }
 
 p{
   font-size: 20px;
   font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+.black{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.directors{
+  font-size: 30px;
+  font-family: arial;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 0;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  transition: all 500ms ease;
+}
+
+.directors:hover{
+  background-color: white;
+  border-color: grey;
+  color: black;
+}
+
+.texted{
+
+
+}
+
+.high1{
+  display: flex;
+}
+
+.rise1{
+  align-self: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
 .high{
   display: flex;
   height: 400px;
-  width:
   flex: 1;
-  margin: 30px;
+  margin: 20px;
+}
+
+.rise1.is-active {
+  opacity: 1;
 }
 
 /* .rise{
@@ -119,10 +209,6 @@ p{
   left: 0;
 } */
 
-.rise1.is-active {
-  opacity: 1;
-}
-
 /* .rise:hover {
   opacity: 1;
   filter: opacity(75%);
@@ -131,31 +217,21 @@ p{
   width: 100%;
 } */
 
-.high1{
-  display: flex;
-  position: relative;
-  flex: 2;
-  flex-flow: row wrap;
-  justify-content: space-around;
 
-}
 
-.rise1{
-  align-self: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
+/* DIRECTOR PAGE */
 
 .direct{
   align-items: flex-start;
-  background-color: #f7efe2;
+  /* background-color: #f7efe2; */
   padding: 20px;
   position: relative;
   margin-bottom: 50px;
-  height: 1100px;
+  height: 850px;
   display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
 
 .grid{
@@ -179,6 +255,7 @@ p{
   right: 0;
   height: 100%;
   width: 100%;
+  display: flex;
 }
 
 .grid-outer:hover .grid-inner{
@@ -191,7 +268,7 @@ p{
 
 .text{
   font-size: 20px;
-  color: black;
+  color: white;
   font-family: futura;
   position: absolute;
   top: 50%;
@@ -199,6 +276,7 @@ p{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  display: flex;
 }
 
 .imaged{
@@ -214,20 +292,22 @@ p{
 
 .wrapper1{
   display: flex;
-  background-color: #f7efe2;
   padding: 20px;
   height: 800px;
   align-items: center;
   flex-direction: column;
   margin: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
 
 .text1{
   font-size: 20px;
-  font-family: helvetica;
   display: flex;
   margin: 0;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+
 }
 
 .h2{
@@ -235,6 +315,8 @@ p{
   font-size: 50px;
   color: #0d1d5e;
   margin-top: 0;
+  padding-top: 0;
+
 }
 
 .words{
@@ -246,9 +328,9 @@ p{
 .dropbtn{
   background-color: #0d1d5e;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px;
-  font-family: "futura";
+  font-family: 'Ultra', serif;
   font-weight: bold;
   transition: all 500ms ease;
   margin: 100px;
@@ -259,6 +341,7 @@ p{
   justify-content: center;
   height: 100px;
   width: 280px;
+  border: none;
 }
 
 .dropbtn:hover{
@@ -299,16 +382,46 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   margin-top: 20px;
+  background-color: black;
+  color: white;
 }
 
 
 /* Style table headers and table data */
-th, td {
+td {
   text-align: center;
   padding: 16px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
 
+th {
+  text-align: center;
+  padding: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+/* tr{
+  background-color: black;
+  color: white;
+} */
+
+.bolded{
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 th:first-child, td:first-child {
@@ -317,7 +430,7 @@ th:first-child, td:first-child {
 
 /* Zebra-striped table rows */
 tr:nth-child(even) {
-  background-color: #f2f2f2
+  background-color: #
 }
 
 .text1{
@@ -337,7 +450,7 @@ tr:nth-child(even) {
 
 .wrapper2{
   display: flex;
-  background-color: #f7efe2;
+  background-color:
   padding: 20px;
   align-items: center;
   flex-direction: column;
@@ -347,14 +460,11 @@ tr:nth-child(even) {
 .linked{
   font-size: 30px;
   font-family: arial;
-  color: black
+  display: flex;
+  margin-bottom: 40px;
 }
 
-.directors{
-  font-size: 30px;
-  font-family: arial;
-  color: black;
-}
+
 
 
 @media (max-width: 768px) {
