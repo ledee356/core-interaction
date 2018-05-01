@@ -66,7 +66,6 @@ a{
   font-weight: thin;
 }
 
-
 a:active, a:visited, a:link{
   color: #ffe888;
   text-decoration: none;
@@ -110,8 +109,8 @@ a:hover{
   color: white;
   background-color: black;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   padding-bottom: 0;
   position: relative;
@@ -173,10 +172,7 @@ p{
   color: black;
 }
 
-.texted{
 
-
-}
 
 .high1{
   display: flex;
@@ -192,7 +188,7 @@ p{
 
 .high{
   display: flex;
-  height: 400px;
+  width: 30%;
   flex: 1;
   margin: 20px;
 }
@@ -228,8 +224,8 @@ p{
   /* background-color: #f7efe2; */
   padding: 20px;
   position: relative;
-  margin-bottom: 50px;
-  height: 850px;
+  margin-bo`ttom: 50px;
+  height: 100%;
   display: flex;
   border-style: solid;
   border-width: 2px;
@@ -282,10 +278,10 @@ p{
 }
 
 .imaged{
-  height: auto;
-  width: auto;
-  max-height: 150px;
-  max-height: 150px;
+  /* height: auto;
+  width: auto; */
+  /* max-height: 150px; */
+  max-width: 90%;
   display: flex;
   transition: all 0.5s;
 }
@@ -306,8 +302,7 @@ p{
 
 .portrait{
   display: flex;
-  height: 400px;
-  flex: 1;
+  width: 70%;
   margin: 20px;
 }
 
@@ -327,6 +322,14 @@ p{
   margin-right: 30px;
   color: white;
 }
+
+
+
+.video{
+  display: flex;
+  width: 100%;
+}
+
 
 /* COMPARISON PAGE */
 
@@ -471,10 +474,7 @@ tr:nth-child(even) {
 }
 
 .img1{
-  width: 100%;
-  height: 100%;
-  max-width: 200px;
-  max-height: 300px;
+  width: 80%;
   margin: 20px;
   margin-bottom: 100px;
 }
@@ -506,3 +506,4 @@ tr:nth-child(even) {
   .direct{
     height: 3250px;
   }
+}
