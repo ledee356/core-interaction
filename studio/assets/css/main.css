@@ -351,10 +351,27 @@ p{
   color: white;
 }
 
+.outer_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mov_image{
+  display: flex;
+  margin: 50px;
+  align-content: center;
+  width: 60%;
+  color: white;
+}
+
+
+
 .video{
   display: flex;
   width: 100%;
 }
+
 
 
 /* COMPARISON PAGE */
