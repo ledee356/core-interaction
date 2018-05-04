@@ -198,124 +198,6 @@ p{
   opacity: 1;
 }
 
-/*THEME PAGE*/
-
-.statement_outer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: white; */
-}
-
-.statment_inner{
-
-  font-weight: lighter;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-  color: white;
-  display: flex;
-  font-size: 30px;
-}
-
-
-/* DIRECTOR PAGE */
-
-.direct{
-  align-items: flex-start;
-  /* background-color: #f7efe2; */
-  padding: 20px;
-  position: relative;
-  margin-bo`ttom: 50px;
-  height: 100%;
-  display: flex;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-}
-
-.grid{
- display: flex;
- flex-wrap: wrap;
-}
-
-.grid-outer{
-  flex: 0 0 25%;
-  padding: 25px;
-  position: relative;
-}
-
-.grid-inner{
-  opacity: 0;
-  transition: all 0.5s;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
-.grid-outer:hover .grid-inner{
-  opacity: 1;
-}
-
-.grid-outer:hover .imaged{
-  opacity: 0.5;
-}
-
-.text{
-  font-size: 20px;
-  color: white;
-  font-family: futura;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  display: flex;
-}
-
-.imaged{
-  /* height: auto;
-  width: auto; */
-  /* max-height: 150px; */
-  max-width: 90%;
-  display: flex;
-  transition: all 0.5s;
-}
-
-.barry{
-  font-size: 60px;
-  font-weight: bold;
-  color: #9dd8e1;
-  font-family: 'Reem Kufi', sans-serif;
-  margin-top: 0;
-  transition: all 500ms ease;
-}
-
-.barry:hover{
-  color: #654483;
-  transform: skew(20deg);
-}
-
-.portrait{
-  display: flex;
-  width: 70%;
-  margin: 20px;
-}
-
-.portrait:hover{
-  filter: saturate(3) brightness(1);
-  transition: all 500ms ease;
-}
-
 /* MOVIE OF THE DAY */
 
 .mov_title{
@@ -362,14 +244,10 @@ p{
   color: white;
 }
 
-
-
 .video{
   display: flex;
   width: 100%;
 }
-
-
 
 /* COMPARISON PAGE */
 
@@ -484,10 +362,6 @@ th {
   border-color: white;
 }
 
-/* tr{
-  background-color: black;
-  color: white;
-} */
 
 .bolded{
   font-weight: bold;
@@ -528,7 +402,6 @@ tr:nth-child(even) {
 
 .awards_outer{
   display: flex;
-
 }
 
 .dropbtn_awards{
@@ -552,6 +425,151 @@ tr:nth-child(even) {
 .dropbtn_awards:hover{
   background-color: white;
   color: #0d1d5e;
+}
+
+.awards-grid-outer{
+  flex: 0 0 25%;
+  padding: 25px;
+  position: relative;
+}
+
+.awards-image{
+  max-width: 100%;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.awards_wrapper{
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 50px;
+  height: 50%;
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  flex-direction: row;
+  flex: wrap;
+}
+
+.awards-grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* DIRECTOR PAGE */
+
+.direct{
+  align-items: flex-start;
+  /* background-color: #f7efe2; */
+  padding: 20px;
+  position: relative;
+  margin-bottom: 50px;
+  height: 100%;
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.grid{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.grid-outer{
+  flex: 0 0 25%;
+  padding: 25px;
+  position: relative;
+}
+
+.grid-inner{
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.grid-outer:hover .grid-inner{
+  opacity: 1;
+}
+
+.grid-outer:hover .imaged{
+  opacity: 0.5;
+}
+
+.text{
+  font-size: 20px;
+  color: white;
+  font-family: futura;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+}
+
+.imaged{
+  max-width: 90%;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.barry{
+  font-size: 60px;
+  font-weight: bold;
+  color: #9dd8e1;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top: 0;
+  transition: all 500ms ease;
+}
+
+.barry:hover{
+  color: #654483;
+  transform: skew(20deg);
+}
+
+.portrait{
+  display: flex;
+  width: 70%;
+  margin: 20px;
+}
+
+.portrait:hover{
+  filter: saturate(3) brightness(1);
+  transition: all 500ms ease;
+}
+
+/*THEME PAGE*/
+
+.statement_outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: white; */
+}
+
+.statment_inner{
+
+  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  display: flex;
+  font-size: 30px;
 }
 
 
