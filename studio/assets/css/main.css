@@ -612,7 +612,7 @@ tr:nth-child(even) {
 
 @media (max-width: 475px) {
   h1{
-    font-size: 80px;
+    font-size: 70px;
     }
 
   h2{
@@ -673,17 +673,10 @@ tr:nth-child(even) {
     flex: 0 0 50%;
   }
 
-  .grid-inner{
-    flex: 0 0 50%;
-  }
-
   .text{
     font-size: 10px;
   }
 
-  .head_section{
-    padding: 50px;
-  }
 
   .theme{
     font-size: 20px;
