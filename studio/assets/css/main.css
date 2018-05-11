@@ -385,13 +385,13 @@ tr:nth-child(even) {
   flex: wrap;
 }
 
-.comp_img{
+/* .comp_img{
   width: 40%;
 }
 
 .comp_img2{
   width: 80%;
-}
+} */
 
 .linked{
   font-size: 30px;
@@ -686,7 +686,15 @@ tr:nth-child(even) {
     font-size: 15px;
   }
 
-  .comp_img{
+  .comp_img, .comp_img2{
     width: 65%;
+  }
+
+  header{
+    display: none;
+  }
+
+  .title{
+    display: none;
   }
 }
