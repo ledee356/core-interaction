@@ -600,8 +600,13 @@ tr:nth-child(even) {
   border-style: solid;
   border-width: 2px;
   border-color: white;
+  margin-bottom: 50px;
 }
 
+.theme-pic{
+  width: 30%;
+  display: flex;
+}
 
 /*MOBILE VERSION*/
 
@@ -689,6 +694,6 @@ tr:nth-child(even) {
   }
 
   .comp_img{
-    width: 65%; 
+    width: 65%;
   }
 }
