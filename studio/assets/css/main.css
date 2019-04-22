@@ -281,18 +281,19 @@ p{
 .dropbtn{
   background-color: #0d1d5e;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   padding: 20px;
-  font-family: 'Futura', serif;
+  font-family: "futura";
   font-weight: bold;
   transition: all 500ms ease;
   margin: 100px;
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
+  position: relative;
   align-items: center;
   justify-content: center;
-  height: 80%;
-  border: none;
+  height: 100px;
+  width: 280px;
 }
 
 .dropbtn:hover{
